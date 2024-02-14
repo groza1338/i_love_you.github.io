@@ -9,7 +9,7 @@ body {
 .board {
 	width: 100vw;
 	height: 100vh;
-	background-color: rgb(124, 115, 207);
+	background-color: rgb(175, 115, 207);
 }
 
 .btn {
@@ -45,7 +45,9 @@ body {
 h1 {
 	position: absolute;
 	top: 30%;
-	left: 40vw;
-	color:bisque;
+	left: 50%; /* Положение в середине по горизонтали */
+	transform: translateX(-50%); /* Сдвигаем элемент на половину его ширины влево */
+	color: bisque;
 }
+
 
